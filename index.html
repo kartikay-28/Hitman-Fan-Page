@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rohit Sharma Fan Page - A tribute to the cricket legend.">
+    <meta name="keywords" content="Rohit Sharma, Cricket, Fan Page, India, IPL">
+    <meta name="author" content="Kartikay Rattan">
+    <title>Rohit Sharma - The Hitman</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <h1>Rohit Sharma - The Hitman</h1>
+        <nav>
+            <ul>
+                <li><button class="nav-btn" id="aboutBtn">About</button></li>
+                <li><button class="nav-btn" id="statsBtn">Stats</button></li>
+                <li><button class="nav-btn" id="wikiBtn">Wikipedia</button></li>
+                <li><button class="nav-btn" id="contactBtn">Contact Me</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h2>Welcome to my first web page!</h2>
+        <p>My name is <strong>Kartikay Rattan</strong>, and this is <span id="vsCodeText" class="clickable-text">my first web page using VS Code</span>.</p>
+    </section>
+    
+    <section class="video">
+        <h2>Watch Rohit Sharma in Action</h2>
+        <video controls autoplay loop>
+            <source src="rohit sharma edit.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    
+    <section id="about" class="about">
+        <h2>About Rohit Sharma</h2>
+        <p><strong>Rohit Gurunath Sharma</strong> (born 30 April 1987) is an Indian cricketer and captain of the Indian national team.</p>
+        <img src="https://static.toiimg.com/thumb/msid-111741230,imgsize-37996,width-400,resizemode-4/111741230.jpg" alt="Rohit Sharma with the 2024 T20 World Cup trophy">
+        <p>Rohit holds numerous cricket records, including the highest individual score (264) in an ODI.</p>
+    </section>
+    
+    <section class="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Most runs in T20 Internationals</li>
+            <li>Most sixes in international cricket</li>
+            <li>Only player with 3 double centuries in ODIs</li>
+            <li>Winner of 2024 ICC T20 World Cup</li>
+            <li>5-time IPL Champion (Mumbai Indians)</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>Follow Rohit Sharma on Instagram:</p>
+        <button class="insta-btn" onclick="window.open('https://www.instagram.com/rohitsharma45/?hl=en', '_blank')">
+            @rohitsharma45
+        </button>
+        <p>Also follow on:</p>
+        <div class="social-links">
+            <a href="https://x.com/ImRo45" target="_blank">Twitter</a>
+            <a href="https://www.facebook.com/RohitSharmaOfficialPage/" target="_blank">Facebook</a>
+        </div>
+    </footer>
+
+    <!-- Popup Modal -->
+    <div id="popupModal" class="popup-modal">
+        <div class="popup-content">
+            <span id="closePopup" class="close-popup">&times;</span>
+            <h2>Welcome!</h2>
+            <p>This is my first web page created using VS Code. Thank you for visiting!</p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
