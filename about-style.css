@@ -1,0 +1,163 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: rgba(30, 42, 71, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.nav-btn {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-btn:hover {
+    background: #e4405f;
+    border-color: #e4405f;
+    transform: scale(1.1);
+}
+
+/* About Section */
+.about-page {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    max-width: 900px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-page img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.about-page img:hover {
+    transform: scale(1.05);
+}
+
+.about-page h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.about-page p {
+    font-size: 1.2rem;
+    color: #f1f1f1;
+    line-height: 1.6;
+    margin: 15px 0;
+}
+
+/* Lists */
+.about-page ul {
+    list-style: none;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.about-page li {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    border-radius: 8px;
+    margin: 8px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.about-page li:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(30, 42, 71, 0.9);
+    border-radius: 10px;
+}
+
+.insta-btn {
+    background: #e4405f;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.insta-btn:hover {
+    background: #c13584;
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-page {
+        padding: 30px 15px;
+    }
+
+    .about-page h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-page p {
+        font-size: 1.1rem;
+    }
+
+    .about-page ul {
+        font-size: 1rem;
+    }
+
+    .nav-btn {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+
+    .insta-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
