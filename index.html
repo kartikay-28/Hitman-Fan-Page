@@ -55,6 +55,22 @@
         </ul>
     </section>
     
+    <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-container">
+            <img src="rohit1.jpg" alt="Rohit Sharma 1" onclick="openLightbox(this)">
+            <img src="rohit2.jpg" alt="Rohit Sharma 2" onclick="openLightbox(this)">
+            <img src="rohit3.jpg" alt="Rohit Sharma 3" onclick="openLightbox(this)">
+        </div>
+    </section>
+    
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img">
+    </div>
+    
+
     <footer>
         <p>Follow Rohit Sharma on Instagram:</p>
         <button class="insta-btn" onclick="window.open('https://www.instagram.com/rohitsharma45/?hl=en', '_blank')">
