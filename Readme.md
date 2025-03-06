@@ -1,3 +1,5 @@
+# Netlify link - https://67c91e2cf2f644a56802de28--funny-kringle-3ba76f.netlify.app/
+
 # 🏏 Rohit Sharma - The Hitman
 
 A simple, responsive fan page dedicated to the legendary Indian cricketer, Rohit Sharma. This project is my first web page created using VS Code.
