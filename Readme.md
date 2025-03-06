@@ -1,4 +1,4 @@
-# Netlify link - https://67c91e2cf2f644a56802de28--funny-kringle-3ba76f.netlify.app/
+## [Netlify Deployed Link](https://67c91e2cf2f644a56802de28--funny-kringle-3ba76f.netlify.app/)
 
 # 🏏 Rohit Sharma - The Hitman
 
